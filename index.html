@@ -62,12 +62,16 @@
                 <legend>Contato</legend>
                 <div>
                     <label for="idEmail">Email</label>
-                    <input type="text" name="txtEmail" id="idEmail" placeholder="Email">
+                    <input type="text" name="txtEmail" id="idEmail" placeholder="Email" pattern="[a-Za-z]{6}">
                 </div>
                 <div>
                     <label for="idNm">Nome</label>
                     <input type="text" name="txtNm" id="idNm" placeholder="Nome">
                 </div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" placeholder="Pass" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].){8,}"
+                        title="Precisa conter no mínimo um número e 8 caractéres e um maíusculo e um em minusculo.">
                 <div>
                     <label for="idGrava">Gravar Dados</label>
                     <input type="checkbox" name="chbGrava" id="idGrava" value="gravar">

@@ -57,17 +57,19 @@
             <a href="#"><img src="./img/social-3.png" alt="Logo twitter"></a>-->
         </nav>
         <div>
-            <form action="index.html" method="get" onsubmit="return true">
+            <form action="index.html" method="post" onsubmit="return true">
             <fieldset>
-                <legend>Contato</legend>
+                <legend>Login</legend>
                 <div>
                     <label for="idEmail">Email</label>
-                    <input type="text" name="txtEmail" id="idEmail" placeholder="Email" pattern="[a-Za-z]{6}">
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email" required>
                 </div>
+                <!--
                 <div>
                     <label for="idNm">Nome</label>
-                    <input type="text" name="txtNm" id="idNm" placeholder="Nome">
+                    <input type="text" name="txtNm" id="idNm" placeholder="Nome" required>
                 </div>
+                -->
                     <label for="idPass">Senha</label>
                     <input type="password" name="txtPass" placeholder="Pass" 
                         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].){8,}"
@@ -76,7 +78,8 @@
                     <label for="idGrava">Gravar Dados</label>
                     <input type="checkbox" name="chbGrava" id="idGrava" value="gravar">
                 </div>
-                <!--<div>
+                <!--
+                <div>
                     <fieldset>
                         <legend>Genêro</legend>
                         <label for="idM">Masculino</label>
@@ -86,19 +89,22 @@
                         <label for="idO">Outros</label>
                         <input type="radio" name="rdb" id="idRdbO" value="o">
                     </fieldset>
-                </div> -->
+                </div>
+                -->
                 <div>
-                    <label for="idGenero">Genêro</label>
-                    <select name="selGerenero" id="idGenero">
-                        <option selected="selected" value="-">Selecione uma opção</option>
-                        <option value="m">Masculino</option>
-                        <option value="f">Feminino</option>
-                        <option value="o">Outros</option>
-                    </select>
+                    <fieldset>
+                        <legend>Genêro</legend>
+                        <select name="selGerenero" id="idGenero">
+                            <option selected="selected" value="-">Selecione uma opção</option>
+                            <option value="m">Masculino</option>
+                            <option value="f">Feminino</option>
+                            <option value="o">Outros</option>
+                        </select>
+                    </fieldset>
                 </div>
                 <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                    <button type="submit">Login</button>
+                    <button type="reset" value="Limpar">Limpar</button>
                 </div>    
             </fieldset>
             </form>

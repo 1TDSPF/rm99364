@@ -67,6 +67,17 @@ td[colspan],[rowspan]{
     display: block;
     margin: 0 auto 2% auto;
 }
+.rodape form div fieldset{
+    width: 90%;
+}
+
+.lbl-txt{
+    margin: auto 5%;
+}
+
+.rodape form div button{
+    width: 40%; 
+}
 
 
 

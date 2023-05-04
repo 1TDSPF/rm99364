@@ -111,4 +111,10 @@ console.log("ITEM QUE FICOU NO LOCAL APÓS A REMOÇÃO : " + frutas[indice]);
 //     console.log("ITEM DO NOVO ARRAY : " + nr);    
 // });
 
-
+//convertendo HTMLCollection em Arrays
+const imgElements = document.getElementsByTagName("img");
+console.log(imgElements);
+const imgElementsArray = [...imgElements];
+imgElementsArray.forEach((img)=>{
+    img.setAttribute("width","3%");
+});

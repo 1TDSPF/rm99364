@@ -86,3 +86,29 @@ console.table(frutas);
 console.log("ITEM QUE FICOU NO LOCAL APÓS A REMOÇÃO : " + frutas[indice]);
 
 */
+
+// let nr1 = [1,2,3,4,5];
+// let nr2 = [6,7,8,9,10];
+// console.log(nr1);
+// console.log(nr2);
+// //CONCATENANDO ARRAYS
+// let nr3 = [nr1,nr2];
+// console.log("NOVO ARRAY : " + nr3);
+// //Imprimindo o Array concatenado com forEach
+// nr3.forEach((nr)=>{
+//     nr.forEach((n)=>{
+//         console.log("ITEM DO NOVO ARRAY : " + n);
+//     })
+// })
+// let nr1 = [1,2,3,4,5];
+// let nr2 = [6,7,8,9,10];
+// console.log(nr1);
+// console.log(nr2);
+// //CONCATENANDO ARRAYS COM O OPERADOR SPREAD( ... )
+// let nr3 = [...nr1,...nr2];
+// // //Imprimindo o Array concatenado com forEach
+// nr3.forEach((nr)=>{
+//     console.log("ITEM DO NOVO ARRAY : " + nr);    
+// });
+
+

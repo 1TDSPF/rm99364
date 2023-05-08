@@ -118,3 +118,14 @@ const imgElementsArray = [...imgElements];
 imgElementsArray.forEach((img)=>{
     img.setAttribute("width","3%");
 });
+
+const aElements = [...document.getElementsByTagName("a")];
+
+
+aElements.forEach((a)=>{
+    let textoDoA = a.textContent;
+
+    if(textoDoA == "Item-1" || textoDoA == "Item-2" || textoDoA == "Item-3"){
+        a.setAttribute("style","background-color:#ff0000;")
+    }
+});

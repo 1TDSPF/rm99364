@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+
+.botao-cor-background{
+    margin: auto;
+    display: block;
+    padding: 2% 4%;
+}
+
+form{
+    padding-top: 5%;
+    justify-content: center;
+}
+
+fieldset{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+
+.form-nome label{
+    display: block;
+    text-align: center;
+}
+
+.form-nome {
+    display: block;
+    text-align: center;
+}
+
+.botao-form-enviar{
+    padding: 1% 2%;
+}
+
+.imagem-troca{
+    padding-top: 5%;
+}
+
+.imagem-troca img{
+    display: block;
+    margin: 0 auto 2% auto;
+    width: 23%;
+    height: 23%;
+}
+
+.imagem-troca button{
+    display: block;
+    margin: auto;
+    padding: 2% 4%;
+}
+
+.escondidin{
+    padding-top: 5%;
+}
+
+.escondidin p{
+    display: none;
+    padding: 3% 0;
+}
+
+.escondidin button{
+    display: block;
+    margin: auto;
+    padding: 2% 4%;
+}
+
+.magico{
+    padding-top: 5% ;
+
+}
+
+.magico img{
+    display: block;
+    margin: 0 auto 2% auto;
+    width: 23%;
+    height: 23%;
+}
+
+.magico button{
+    display: block;
+    margin: auto;
+    padding: 2% 4%;
+}

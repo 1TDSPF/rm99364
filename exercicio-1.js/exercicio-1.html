@@ -11,7 +11,7 @@
 <body>
     <h1>Exercicio 1</h1>
 
-    <button class="botao-cor-background">COR DE FUNDO</button>
+    <button id="botao-cor-background">COR DE FUNDO</button>
 
     <form action="./exercicio-1.html">
         <fieldset>
@@ -20,24 +20,28 @@
                 <input type="text" name="txtNome" id="idNome" placeholder="Nome" required>
             </div>
             <div class="botao-form-enviar">
-                <button type="submit">Enviar</button>
+                <button id="botao-enviar" type="submit">Enviar</button>
             </div>  
         </fieldset>
     </form>
 
+    <ul id="lista-nomes">
+        <li>Rennan</li>
+    </ul>
+
     <div class="imagem-troca">
-        <img src="./img/gatinho.png" alt="gato">
-        <button>Trocar</button>
+        <img id="imagem-muda" src="./img/gatinho.png" alt="gato">
+        <button id="botao-mudar-imagem">Trocar</button>
     </div>
 
     <div class="escondidin">
-        <p>tava escondidin</p>
-        <button>Não clique aqui</button>
+        <p id="paragrafo-oculto">tava escondidinho</p>
+        <button id="botao-mostrar">Não clique aqui</button>
     </div>
 
     <div class="magico">
-        <img src="./img/magico.png" alt="magico">
-        <button>Fazer mágico sumir</button>
+        <img id="imagem-visivel" src="./img/magico.png" alt="magico">
+        <button id="botao-esconder">Fazer o mágico sumir</button>
     </div>
 
     
